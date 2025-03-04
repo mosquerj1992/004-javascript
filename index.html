@@ -1,16 +1,47 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <h1></h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <style>
+    .red {
+      color: white;
+      background: red;
+      padding: 10px;
+    }
+
+    .blue {
+      color: white;
+      background: blue;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 id="titulo">Manipulación de Clases en JavaScript</h1>
+  <button onclick="addClass()">Agregar Clase</button>
+  <button onclick="removeClass()">Remover Clase</button>
 
 
-    <div id="app"></div>
-    <script type="module" src="./ejercicosenclases.js"></script>
-  </body>
+
+  <!-- dom -->
+  <button onclick="show()">Show coordinate</button>
+  <div id="box1" class="box">
+    <p>
+      Lorem Ipsum is simply dummy
+      industry. Lorem Ipsum has been the
+    </p>
+  </div>
+
+
+
+  <script src="./src/dom.js"></script>
+
+</body>
+
 </html>

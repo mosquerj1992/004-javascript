@@ -91,7 +91,7 @@ const hayPedidoGrande = pedidos.some(pedido => pedido.total > 1000);
 
 const pedidosConLaptop = pedidos.filter(pedido => pedido.productos.includes("Laptop"));
 
-//console.log(pedidosConLaptop);
+console.log(pedidosConLaptop);
 
 
 // Ej5 Análisis de Transacciones Bancarias (Desestructuración, map, filter, reduce, find)
